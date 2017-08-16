@@ -12,7 +12,7 @@ var messengerButton = "<html><head><title>Facebook Messenger Bot</title></head><
 let app = express();
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({
+app.use(bodyParser.urlencoded({ 
   extended: true
 }));
 
